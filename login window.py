@@ -26,7 +26,7 @@ fail=PhotoImage(file=image_path5)
 label1=Label(f1,image=bg)
 label1.grid(column=1)
 
-mydb=mysql.connector.connect(host="127.0.0.1",user="root",password="udhaya.p23")
+mydb=mysql.connector.connect(host="127.0.0.1",user="root",password="XXXX")
 
 sql=mydb.cursor()
 try:
